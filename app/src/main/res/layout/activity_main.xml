@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/matOperationTv"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:paddingTop="30dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="140sp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="100sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/clearTv"
+                style="@style/MathematicalOperationsButton"
+                android:text="C" />
+
+            <TextView
+                android:id="@+id/parenthesisTv1"
+                style="@style/MathematicalOperationsButton"
+                android:text="(" />
+
+            <TextView
+            android:id="@+id/parenthesisTv2"
+            style="@style/MathematicalOperationsButton"
+            android:text=")" />
+
+            <TextView
+                android:id="@+id/divisionTv"
+                style="@style/MathematicalOperationsButton"
+                android:text="/" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Tv7"
+                style="@style/NumberButton"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/Tv8"
+                style="@style/NumberButton"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/Tv9"
+                style="@style/NumberButton"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/multiplicationTv"
+                style="@style/MathematicalOperationsButton"
+                android:text="x" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Tv4"
+                style="@style/NumberButton"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/Tv5"
+                style="@style/NumberButton"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/Tv6"
+                style="@style/NumberButton"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/subtractTv"
+                style="@style/MathematicalOperationsButton"
+                android:text="-" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Tv1"
+                style="@style/NumberButton"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/Tv2"
+                style="@style/NumberButton"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/Tv3"
+                style="@style/NumberButton"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/addTv"
+                style="@style/MathematicalOperationsButton"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/backIv"
+                style="@style/MathematicalOperationsButton"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_backspace_24" />
+
+            <TextView
+                android:id="@+id/Tv0"
+                style="@style/NumberButton"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/pointTv"
+                style="@style/NumberButton"
+                android:text="." />
+
+            <TextView
+                android:id="@+id/equallyTv"
+                style="@style/ResultButton"
+                android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+ 
+

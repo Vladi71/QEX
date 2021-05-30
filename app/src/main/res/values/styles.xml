@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumberButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MathematicalOperationsButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#ffa200</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ResultButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#ffa200</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
